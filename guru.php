@@ -41,7 +41,6 @@ $title = 'Data Guru Sekolah '.$nSekolah;
 		<!-- top bar -->
 		<div class="logo clearfix">
 			<div class="float-left mt-3 mb-3">
-				<img src="resources/images/logo.png" alt="Logo Sekolah" width="70px" class="float-left mr-3">
 				<?php include_once('slogan.php'); ?>
 			</div>
 		</div>

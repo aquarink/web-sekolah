@@ -42,7 +42,6 @@ $title = 'Tentang Sekolah '.$nSekolah;
 		<!-- top bar -->
 		<div class="logo clearfix">
 			<div class="float-left mt-3 mb-3">
-				<img src="resources/images/logo.png" alt="Logo Sekolah" width="70px" class="float-left mr-3">
 				<?php include_once('slogan.php'); ?>
 			</div>
 		</div>
@@ -54,7 +53,7 @@ $title = 'Tentang Sekolah '.$nSekolah;
 		<div class="row p-3">
 			<div class="col-md-8">
 				<div class="title mb-3">
-					Tentang Website SMK Negeri 1 Wanareja
+					<?= $nSekolah; ?>
 				</div>
 				<div class="artikel" style="text-align: justify;">
 					<?= $tentang_website['tentang_website'] ?>

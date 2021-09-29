@@ -1,3 +1,3 @@
 <?php 
-$nSekolah = 'xxxxxxx';
+$nSekolah = 'Madrasah Aliyah Cendikia Roudhotul Hasanah Al Muhammady';
 ?>

@@ -38,7 +38,6 @@ $title = 'Buku Tamu Sekolah '.$nSekolah;
 		<!-- top bar -->
 		<div class="logo clearfix">
 			<div class="float-left mt-3 mb-3">
-				<img src="resources/images/logo.png" alt="Logo Sekolah" width="70px" class="float-left mr-3">
 				<?php include_once('slogan.php'); ?>
 			</div>
 		</div>
@@ -50,7 +49,7 @@ $title = 'Buku Tamu Sekolah '.$nSekolah;
 		<div class="row p-3">
 			<div class="col-md-8">
 				<div class="title mb-3">
-					Buku Tamu SMK Karya Bangsa
+					Buku Tamu
 				</div>
 				<div>
 					<form method="POST" action="proses_bukutamu.php">
